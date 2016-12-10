@@ -1,4 +1,4 @@
-# Processor RISC - SystemC
+# RISC Processor - SystemC
 This is a simple processor implemented in SystemC. It implements a small set of instructions and performs
 a trivial pipeline, with only two stages and no true predictions.
  
