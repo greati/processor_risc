@@ -26,7 +26,8 @@ And the instruction set is listed below:
 | JZ          | CP <- D, if Z==1                        | JZ 1        |
 | LRI         | R[D] <- F1                              | LRI 1 10    |
 
-Internally, the processor has the following structure:
+Internally, the processor has the following structure (please notice that control signals were omitted for
+organization purposes):
 
 ![Block diagram](https://github.com/greati/processor_risc/blob/master/report/img/procdiag.png "Processor's diagram")
 
