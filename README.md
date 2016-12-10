@@ -36,6 +36,7 @@ First of all, I strongly recommend installing SystemC 2.3.1 following this tutor
 
 After that, enter the folder "processor" and execute the file ./compile.h. If it doesn't work, you can try to compile the file processor_run.cpp by yourself, indicating properly where the SystemC's libraries are. 
 
-Finally, execute the ./processor_run program, giving a file with a list of instructions.
+Finally, execute the ./processor_run program, passing a file with a list of instructions as argument. If you need examples
+of algorithms for this processor, take a look at the folder "processor/tests".
 
 Any suggestions or doubts, please refer to my e-mail, greati@ufrn.edu.br.
