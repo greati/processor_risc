@@ -1,6 +1,6 @@
 # Processor RISC - SystemC
 This is a simple processor implemented in SystemC. It implements a small set of instructions and performs
-a trivial pipeline, with only two stages.
+a trivial pipeline, with only two stages and no true predictions.
  
 The instruction word has the form:
 
@@ -8,7 +8,7 @@ The instruction word has the form:
 |--------|---|----|----|
 | 4 bits | 9 bits | 9 bits | 9 bits|
  
-The instruction set is listed below:
+And the instruction set is listed below:
 
 | Instruction | Action       | Example                                |
 | ----------- |:------------:|:--------------------------------------:|
@@ -32,10 +32,10 @@ Internally, the processor has the following structure:
 
 ## Running
 
-First of all, I strongly recommend installing SystemC 2.3.1 following this tutorial: http://chaitulabs.blogspot.com.br/2014/05/systemc-231-installation-in-ubuntu.html
+First of all, I strongly recommend installing SystemC 2.3.1 following this tutorial: http://chaitulabs.blogspot.com.br/2014/05/systemc-231-installation-in-ubuntu.html.
 
-After that, enter the folder "processor" and execute the file ./compile.h. If it doesn't work, you can try to compile the file processor_run.cpp by yourself, indicating properly where are the SystemC's libraries. 
+After that, enter the folder "processor" and execute the file ./compile.h. If it doesn't work, you can try to compile the file processor_run.cpp by yourself, indicating properly where the SystemC's libraries are. 
 
-Finally, execute the processor_run program, giving a file with a list of instructions.
+Finally, execute the ./processor_run program, giving a file with a list of instructions.
 
 Any suggestions or doubts, please refer to my e-mail, greati@ufrn.edu.br.
