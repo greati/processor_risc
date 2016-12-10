@@ -1,0 +1,88 @@
+Loading processor...
+New component - RAM - IM
+New component - RAM - DM
+New component - Decoder
+New component - Program Counter
+New component - Register base
+New component - Multiplexer3
+New component - Multiplexer3
+New component - Pipeline register
+New component - Instruction Register
+
+The processor is ready to work.
+ ~~~~---------------------------~~~~
+Attempting to find instructions...
+Found! Reading instructions...
+Loading into instruction memory...
+Done! Instructions to be processed:
+13001003000
+13002006000
+13003001000
+13004000000
+13005000000
+5009004001
+12010000000
+6005005002
+7001001003
+10005000000
+9001005000
+ ~~~~---------------------------~~~~
+
+Processing instruction 0
+Processing instruction 13001003000
+Processing instruction 13002006000
+Processing instruction 13003001000
+Processing instruction 13004000000
+Processing instruction 13005000000
+Processing instruction 5009004001
+Processing instruction 12010000000
+Processing instruction 6005005002
+Processing instruction 7001001003
+Processing instruction 10005000000
+Processing instruction 9001005000
+Processing instruction 5009004001
+Processing instruction 12010000000
+Processing instruction 6005005002
+Processing instruction 7001001003
+Processing instruction 10005000000
+Processing instruction 9001005000
+Processing instruction 5009004001
+Processing instruction 12010000000
+Processing instruction 6005005002
+Processing instruction 7001001003
+Processing instruction 10005000000
+Processing instruction 9001005000
+Processing instruction 5009004001
+Processing instruction 12010000000
+Processing instruction 6005005002
+Processing instruction 9001005000
+Processing instruction 0
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+
+Finished after 115 cicles. Final state:
+
+/******* REGISTERS ********/
+[0]-0
+[1]-0
+[2]-6
+[3]-1
+[4]-0
+[5]-18
+[6]-0
+[7]-0
+[8]-0
+[9]-1
+
+/******* MEMORY ********/
+[0] - 0
+[1] - 18
+[2] - 0
+[3] - 0
+[4] - 0
+[5] - 0
+[6] - 0
+[7] - 0
+[8] - 0
+[9] - 0
+

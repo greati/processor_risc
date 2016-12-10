@@ -1,0 +1,15 @@
+\select@language {brazilian}
+\contentsline {section}{\numberline {1}Decis\IeC {\~o}es de projeto}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Palavra de instru\IeC {\c c}\IeC {\~a}o}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Conjunto de instru\IeC {\c c}\IeC {\~o}es}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Modos de endere\IeC {\c c}amento}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Mem\IeC {\'o}rias}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Pipeline}{3}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Barramentos}{3}{subsection.1.6}
+\contentsline {section}{\numberline {2}Diagramas}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Parte operativa}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Parte de controle}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Implementa\IeC {\c c}\IeC {\~a}o}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Testes}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Resultados}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Conclus\IeC {\~o}es}{9}{section.4}

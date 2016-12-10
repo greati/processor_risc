@@ -1,0 +1,150 @@
+Loading processor...
+New component - RAM - IM
+New component - RAM - DM
+New component - Decoder
+New component - Program Counter
+New component - Register base
+New component - Multiplexer3
+New component - Multiplexer3
+New component - Pipeline register
+New component - Instruction Register
+
+The processor is ready to work.
+ ~~~~---------------------------~~~~
+Attempting to find instructions...
+Found! Reading instructions...
+Loading into instruction memory...
+Done! Instructions to be processed:
+13003001000
+13006000000
+13007001000
+13001000000
+13002001000
+13004001000
+13005010000
+7005005007
+5009005004
+11015000000
+6003001002
+6001006002
+6002006003
+6004007004
+10008000000
+9001003000
+ ~~~~---------------------------~~~~
+
+Processing instruction 0
+Processing instruction 13003001000
+Processing instruction 13006000000
+Processing instruction 13007001000
+Processing instruction 13001000000
+Processing instruction 13002001000
+Processing instruction 13004001000
+Processing instruction 13005010000
+Processing instruction 7005005007
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 6001006002
+Processing instruction 6002006003
+Processing instruction 6004007004
+Processing instruction 10008000000
+Processing instruction 9001003000
+Processing instruction 5009005004
+Processing instruction 11015000000
+Processing instruction 6003001002
+Processing instruction 9001003000
+Processing instruction 0
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+
+Finished after 374 cicles. Final state:
+
+/******* REGISTERS ********/
+[0]-0
+[1]-34
+[2]-55
+[3]-55
+[4]-10
+[5]-9
+[6]-0
+[7]-1
+[8]-0
+[9]-0
+
+/******* MEMORY ********/
+[0] - 0
+[1] - 55
+[2] - 0
+[3] - 0
+[4] - 0
+[5] - 0
+[6] - 0
+[7] - 0
+[8] - 0
+[9] - 0
+

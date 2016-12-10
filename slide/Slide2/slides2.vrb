@@ -1,0 +1,65 @@
+\frametitle{Testes}
+Para testar o funcionamento do processador e do pipeline, os seguintes algoritmos foram utilizados:
+
+		\begin{lstlisting}
+		LRI 1 3
+		LRI 2 6
+		LRI 3 1
+		LRI 4 0
+		LRI 5 0
+		CMP 9 4 1
+		JZ 10
+		ADD 5 5 2
+		SUB 1 1 3
+		J 5
+		ST 1 5
+		\end{lstlisting}
+	\end{frame}
+
+	\begin{frame}[fragile]{Testes}
+
+		Computa o décimo elemento da sequência de Fibonacci e o armazena na memória:
+
+		\begin{lstlisting}
+		LRI 3 1
+		LRI 6 0
+		LRI 7 1
+		LRI 1 0
+		LRI 2 1
+		LRI 4 1
+		LRI 5 10
+		SUB 5 5 7
+		CMP 9 5 4
+		JN 15
+		ADD 3 1 2
+		ADD 1 6 2
+		ADD 2 6 3
+		ADD 4 7 4
+		J 8
+		ST 1 3
+		\end{lstlisting}
+		\end{frame}
+
+	\begin{frame}[fragile]{Testes}
+			Realiza todas as operações lógicas possíveis com o processador
+				em operandos advindos da memória de dados:
+
+		\begin{lstlisting}
+		LRI 0 2
+		LRI 1 3
+		ST 0 0
+		ST 1 1
+		LD 2 0
+		LD 3 1
+		ADD 4 3 2
+		SUB 5 4 3
+		AND 6 1 2
+		OR 7 1 2
+		XOR 8 1 2
+		NOT 9 1
+		\end{lstlisting}
+	\end{frame}
+
+
+
+\end{document}

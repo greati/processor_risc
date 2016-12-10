@@ -1,0 +1,45 @@
+Download da biblioteca SystemC: http://accellera.org/downloads/standards/systemc
+
+1 - Descompactar em /usr/local
+
+2 - $ cd /usr/local
+
+3 - $ mkdir objdir
+
+4 - $ cd objdir
+
+5 - $ export CXX=compilador
+
+      ex: > export CXX=g++
+
+6 - $ ../configure
+
+7 - $ make
+
+8 - $ make install
+
+9 - deletar diretório objdir
+
+        $ cd ..
+        $ rm -rf objdir
+
+mais detalhes no arquivo INSTALL
+
+======================================================
+
+Para compilar:
+
+ $ export SYSTEMC_HOME=/usr/local/systemc-2.3.1/
+
+ $ g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -Wl,-rpath=$SYSTEMC_HOME/lib-linux64 -o hello hello.cpp -lsystemc -lm
+
+Para executar:
+ 
+ $ ./hello
+
+======================================================
+
+No caso do erro: 
+"error while loading shared libraries: libsystemc-2.3.1.so: cannot open shared object file: No such file or directory"
+
+ $ sudo ln -s /usr/local/systemc-2.3.1/lib-linux64/libsystemc-2.3.1.so /usr/lib/libsystemc-2.3.0.so

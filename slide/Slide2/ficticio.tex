@@ -1,0 +1,238 @@
+\subsection[Subsection]{Descrição do problema}
+\begin{frame}
+    \frametitle{Descrição do problema}
+    
+    O problema consiste em um conjunto de dados de dimensão 6 com 150 instâncias,
+    ou seja, é uma matriz $150 \times 6$. As seis variáveis estão relacionadas a três targets, A, B e
+    C, e se encontram distribuídas desta forma:
+    
+    \begin{itemize}
+        \item \textbf{Linhas 1 a 50:} Target A;
+        \item \textbf{Linhas 51 a 100:} Target B;
+        \item \textbf{Linhas 101 a 150:} Target C. 
+    \end{itemize}
+\end{frame}
+
+\subsection[Subsection]{Medidas de tendência central e distribuição}
+\begin{frame}[shrink=30]
+    \frametitle{Medidas de tendência central}
+
+    \vspace{3em}
+
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c | c }
+            \textbf{Variáveis} & V1 & V2 & V3 & V4 & V5 & V6 \\ \hline \hline 
+            \textbf{Médias} & -1.4572e-15 & -1.6383e-15 & -1.2923e-15 & -5.5437e-16 & 1.6017e-15 & 3.0790e-16 \\  
+        \end{tabular}
+        \caption{Média aritmética}
+    \end{table}
+
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c | c }
+            \textbf{Variáveis} & V1 & V2 & V3 & V4 & V5 & V6 \\ \hline \hline 
+            \textbf{Medianas}  & -0.052331 & -0.131539 & 0.335354 & 0.132067 & -0.259902 & -0.444690 \\  
+        \end{tabular}
+        \caption{Mediana}
+    \end{table}
+
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c | c }
+            \textbf{Variáveis} & V1 & V2 & V3 & V4 & V5 & V6 \\ \hline \hline 
+            \textbf{Modas}     & -1.01844 & -0.13154 & -1.33575 & -1.31105 & -0.53542 & -0.44469 \\  
+        \end{tabular}
+        \caption{Moda}
+    \end{table}
+
+\end{frame}
+
+\begin{frame}[shrink=30]
+    \frametitle{Medidas de distribuição}
+    \vspace{3em}
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c | c }
+            \textbf{Variáveis} & V1 & V2 & V3 & V4 & V5 & V6 \\ \hline \hline 
+            \textbf{Desvios absolutos médios}      & 0.83031     & 0.77267     & 0.88526     & 0.86342     & 0.85385     & 0.87463 \\  
+        \end{tabular}
+        \caption{Desvio absoluto médio}
+    \end{table}
+
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c | c }
+            \textbf{Variáveis} & V1 & V2 & V3 & V4 & V5 & V6 \\ \hline \hline 
+            \textbf{Variâncias}  & 1 & 1 & 1 & 1 & 1 & 1 \\  
+        \end{tabular}
+        \caption{Variância}
+    \end{table}
+
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c | c }
+            \textbf{Variáveis} & V1 & V2 & V3 & V4 & V5 & V6 \\ \hline \hline 
+            \textbf{Desvios padrões}  & 1 & 1 & 1 & 1 & 1 & 1 \\  
+        \end{tabular}
+        \caption{Desvio padrão}
+    \end{table}
+
+\end{frame}
+
+\subsection[Subsection]{Grau de normalidade, assimetria, curtose e correlação}
+\begin{frame}[shrink=30]
+    \frametitle{Grau de normalidade}
+    \vspace{3em}
+    \begin{figure}[!tbp]
+        \centering
+            \begin{minipage}[b]{0.25\textwidth}
+                \includegraphics[width=\textwidth]{NormPlot_V1.jpg}
+                \caption{Q-Q Plot V1}
+            \end{minipage}
+            \begin{minipage}[b]{0.25\textwidth}
+                \includegraphics[width=\textwidth]{NormPlot_V2.jpg}
+                \caption{Q-Q Plot V2}
+            \end{minipage}
+            \begin{minipage}[b]{0.25\textwidth}
+                \includegraphics[width=\textwidth]{NormPlot_V3.jpg}
+                \caption{Q-Q Plot V3}
+            \end{minipage}
+            \begin{minipage}[b]{0.25\textwidth}
+                \includegraphics[width=\textwidth]{NormPlot_V4.jpg}
+                \caption{Q-Q Plot V4}
+            \end{minipage}
+            \begin{minipage}[b]{0.25\textwidth}
+                \includegraphics[width=\textwidth]{NormPlot_V5.jpg}
+                \caption{Q-Q Plot V5}
+            \end{minipage}
+            \begin{minipage}[b]{0.25\textwidth}
+                \includegraphics[width=\textwidth]{NormPlot_V6.jpg}
+                \caption{Q-Q Plot V6}
+            \end{minipage}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}[shrink=30]
+    \frametitle{Grau de assimetria e curtose}
+    
+    \vspace{3em}
+
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c }
+            \textbf{Variável} & $\bar{x}$ & $x_{mo}$ & s & AS & Assimetria \\ \hline \hline
+            \textbf{V1}      & -1.4572e-15     & -1.0184e+00     & 1.0000e+00     & 1.01844e+00     & positiva   \\
+            \textbf{V2}      & -1.6383e-15     & -1.3154e-01     & 1.0000e+00     & 1.3154e-01      & negativa    \\
+            \textbf{V3}      & -1.2923e-15     & -1.3358e+00     & 1.0000e+00     & 1.3358e+00      & positiva    \\
+            \textbf{V4}      & -5.5437e-16     & -1.3111e+00     & 1.0000e+00     & 1.3111e+00      & positiva    \\
+            \textbf{V5}      & 1.6017e-15      & -5.3542e-01     & 1.0000e+00     & 5.3542e-01      & negativa
+        \end{tabular}
+        \caption{Grau de assimetria}
+    \end{table}
+
+    \begin{table}
+        \begin{tabular}{ l | c | c | c | c | c }
+            \textbf{Variáveis} & V1 & V2 & V3 & V4 & V5 \\ \hline \hline 
+            \textbf{Grau} & 2.4264 & 3.1810 & 1.6045 & 1.6639 & 2.1943 \\ 
+        \end{tabular}
+        \caption{Grau de curtose das variáveis}
+    \end{table}
+
+\end{frame}
+
+\begin{frame}[shrink=30]
+    \frametitle{Grau de correlação}
+    \vspace{3em}
+    \begin{equation*}
+        \begin{bmatrix}
+        1.000000 & -0.117570 &  0.871754 &  0.817941 & -0.448685 & 0.136343 &  0.782561 \\
+        -0.117570 &  1.000000 & -0.428440 & -0.366126 &  0.648175 & 0.079311 & -0.426658 \\
+        0.871754 & -0.428440 &  1.000000 &  0.962865 & -0.828920 & 0.075906 &  0.949035 \\
+        0.817941 & -0.366126 &  0.962865 &  1.000000 & -0.822567 & 0.088966 &  0.956547 \\
+        -0.448685 &  0.648175 & -0.828920 & -0.822567 &  1.000000 & 0.016014 & -0.837950 \\
+        0.136343 &  0.079311 &  0.075906 &  0.088966 &  0.016014 & 1.000000 &  0.104404 \\
+        0.782561 & -0.426658 &  0.949035 &  0.956547 & -0.837950 & 0.104404 &  1.000000 
+        \end{bmatrix}
+    \end{equation*}
+
+    \begin{block}{Descrição}
+        A matriz acima representa a matriz de correlações das variáveis V1 à V6 (\textbf{normalizadas}) com \emph{targets}. Substituíram-se os \emph{targets} (\textit{A,B,C}) pelos números (\textit{1,2,3}), os quais foram incluídos em uma sétima coluna na matriz das variáveis normalizadas.
+    \end{block}
+     
+\end{frame}
+
+\subsection[Subsection]{Resolução do problema}
+\begin{frame}
+    
+    \frametitle{Resolução do problema - 1 variável}
+
+    \begin{figure}[!tbp]
+        \begin{minipage}[b]{0.45\textwidth}
+            \includegraphics[width=\textwidth]{UniTargetPlot_V3.jpg}
+            \caption{Plot V3}
+        \end{minipage}
+        \begin{minipage}[b]{0.45\textwidth}
+            \includegraphics[width=\textwidth]{UniTargetPlot_V4.jpg}
+            \caption{Plot V4}
+        \end{minipage}
+    \end{figure}
+
+    \begin{block}{Análise}
+        Ao analisar os gráficos, é possível perceber que as variáveis \textit{V3 e V4} podem solucionar o problema, pois conseguem delimitar as regiões de cada \textit{target} com poucas sobreposições.
+    \end{block}
+
+\end{frame}
+
+\begin{frame}[shrink=30]
+    \frametitle{Resolução do problema - 2 variáveis}
+
+    \begin{block}{Análise}
+        Neste caso, os pares de variáveis que podem resolver o problema são: 
+        (\textit{V1,V3}), (\textit{V1,V4}), (\textit{V1,V5}), (\textit{V2,V3}), (\textit{V2,V4}), (\textit{V3,V4}), (\textit{V3,V5}) e (\textit{V4,V5}).
+    \end{block}
+     \begin{figure}[!tbp]
+        \centering
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V1V3.jpg}
+            \caption{Plot V1-V3}
+        \end{minipage}
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V1V4.jpg}
+            \caption{Plot V1-V4}
+        \end{minipage}
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V1V5.jpg}
+            \caption{Plot V1-V5}
+        \end{minipage}
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V2V3.jpg}
+            \caption{Plot V2-V3}
+        \end{minipage}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}[shrink=30]
+    \frametitle{Resolução do problema - 2 variáveis}
+
+     \begin{figure}[!tbp]
+        \centering
+       
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V2V4.jpg}
+            \caption{Plot V2-V4}
+        \end{minipage}
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V3V4.jpg}
+            \caption{Plot V3-V4}
+        \end{minipage}
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V3V5.jpg}
+            \caption{Plot V3-V5}
+        \end{minipage}
+        \begin{minipage}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{BiTargetPlot_V4V5.jpg}
+            \caption{Plot V4-V5}
+        \end{minipage}
+        
+    \end{figure}
+    
+\end{frame}
+
+
+

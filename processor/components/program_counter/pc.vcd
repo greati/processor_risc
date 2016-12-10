@@ -1,0 +1,1943 @@
+$date
+     Nov 01, 2016       20:56:44
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Nov  1 2016 19:21:41
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clock       $end
+$var wire    1  aaaab  reset       $end
+$var wire    1  aaaac  enable       $end
+$var wire    8  aaaad  counter_out [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+0aaaac
+b0 aaaad
+$end
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+1aaaab
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+0aaaab
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+
+#0
+0aaaaa
+1aaaac
+
+#0
+1aaaaa
+b1 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b100111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b101111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b110111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b111111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1000111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1001111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1010111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1011111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1100111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1101111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1110111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b1111111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10000111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10001111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10010111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10011111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10100111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10101111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10110111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b10111111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11000111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11001111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11010111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11011111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11100111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11101111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11110111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111000 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111001 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111010 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111011 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111100 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111101 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111110 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b11111111 aaaad
+
+#0
+0aaaaa
+
+#0
+1aaaaa
+b0 aaaad
+

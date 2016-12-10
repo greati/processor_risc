@@ -1,0 +1,77 @@
+Trabalho da disciplina DIM0431 - Arquitetura e Organização de Computadores - 2016.2. Desenvolvido por grupos de até 3 alunos.
+
+ 
+
+1- Entrega (via tarefas-SIGAA): 30/11/16.
+
+ 
+
+2- Apresentação (em sala): 05 e 07/12/16.
+
+ 
+
+3- Descrição do Trabalho:
+
+ 
+
+3.1- Implementar a arquitetura para um conjunto de instruções (ISA, Instruction-Set Architecture) composta por Parte de Controle e Parte Operativa, compatíveis com a filosofia RISC (Reduced Instruction-Set Computer) e que executam em “Pipeline” o seguinte conjunto de instruções:
+
+ 
+
+AND —> operação booleana AND
+
+OR —> operação booleana OR
+
+XOR —> operação booleana XOR
+
+NOT —> operação booleana NOT
+
+CMP —> comparação
+
+ADD —> soma
+
+SUB —> subtração
+
+LD —> leitura em memória
+
+ST —> armazenamento em memória
+
+J —> salto incondicional
+
+JN —> salto condicional; salta se (N)egativo
+
+JZ —> salto condicional; salta se (Z)ero
+
+ 
+
+3.2- Serão decisões de projeto:
+
+A- o tamanho da palavra do processador;
+
+B- o formato da palavra de instrução;
+
+C- os modos de endereçamento de operandos;
+
+D- o tamanho do banco de registradores;
+
+E- o tamanho das memórias de instruções e de dados;
+
+F- o número de estágios do pipeline;
+
+G- o número e tipos de barramentos da parte operativa.
+
+ 
+
+3.3- O trabalho consiste de:
+
+ 
+
+A- Implementação da arquitetura em VHDL ou SystemC;
+
+B- Resultados de simulações de instruções na arquitetura. Os resultados podem ser apresentados em diagramas de forma de onda e/ou textual;
+
+C- Relatório explicando e exemplificando a implementação da arquitetura e justificando as decisões de projeto acima elencadas (seção 3.2). O relatório deve conter pelo menos os diagramas de bloco das partes de controle e operativa e deve mostrar análises de desempenho (ciclos de relógio necessários à execução das instruções) em função dos comportamentos do pipeline. Entende-se por comportamentos do pipeline, os tratamentos implementados para as dependências de dados e de controle; e
+
+D- Apresentação (10 minutos). Os integrantes do grupo serão avaliados individualmente, e devem saber responder as perguntas relativas a todo o trabalho.
+
+ 

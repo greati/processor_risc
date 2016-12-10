@@ -1,0 +1,17 @@
+# FIBONACCI - Encontrar o n-ésimo elemento de fibonacci
+LRI 3 1   # Registrador 3 iniciado com o primeiro valor da sequencia 
+LRI 6 0   # Registrador 6 com valor 0 para auxílio
+LRI 7 1   # Registrador 7 com valor 1 para auxílio
+LRI 1 0   # Registrador 1 representa o valor anterior
+LRI 2 1   # Registrador 2 representa o valor atual
+LRI 4 1   # Registrador 4 Contador de loop
+LRI 5 10   # Registrador 5(ONDE SE DEFINE O N-ÉSIMO TERMO DESEJADO)
+SUB 5 5 7 # Subtração em R5, de R5 - R7 
+CMP 9 5 4 # Comparação em R9, de R5 e R4
+JN 15	  # Caso R5 < R4, o código pula para linha 15
+ADD 3 1 2 # Adição em R3, de R1 + R2 
+ADD 1 6 2 # Adição em R1, de R6 + R2
+ADD 2 6 3 # Adição em R2, de R6 + R3
+ADD 4 7 4 # Adição em R4, de R7 + R4
+J 8		  # Pula o código para linha 8
+ST 1 3	  # Armazena na posição 1 da memória o valor de R3
